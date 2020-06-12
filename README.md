@@ -8,11 +8,19 @@ Auto-detection carriers
 npm install auto-detection-carriers
 ```
 
+## Test
+
+```bash
+npm run test
+```
+
 ## Example
 
 ```javascript
 var lib = require('auto-detection-carriers'),
-lib.getCarrier('1ZE307F90300947572');
+lib.getCarrier('1ZE307F90300947572'); // ups
+lib.getCarrier('449044304137821'); // fedex
+lib.getCarrier('7070000000'); // dhl
 ```
 
 ## License
