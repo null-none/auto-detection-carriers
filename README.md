@@ -6,12 +6,14 @@ Auto-detection carriers
 
 ```bash
 npm install auto-detection-carriers
+yarn add auto-detection-carriers
 ```
 
 ## Test
 
 ```bash
 npm run test
+yarn test
 ```
 
 ## Example
