@@ -23,6 +23,7 @@ var lib = require('auto-detection-carriers'),
 lib.getCarrier('1ZE307F90300947572'); // ups
 lib.getCarrier('449044304137821'); // fedex
 lib.getCarrier('7070000000'); // dhl
+lib.getCarrier('TBA000000000000'); // amazon logistic
 ```
 
 ## License

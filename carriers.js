@@ -24,6 +24,8 @@ module.exports = {
 
         matchLasership1 = /^[0-9]{1}LS[0-9]{12}$/;
 
+        matchAmazonLogistics = /^[0-9]{1}LS[0-9]{12}$/;
+
         if (matchUPS1.exec(trackingNumber) ||
             matchUPS2.exec(trackingNumber)) {
             return 'ups';
@@ -47,6 +49,8 @@ module.exports = {
             return 'ontrac';
         } else if (matchLasership1.exec(trackingNumber)) {
             return 'lasership';
+        } else if (matchAmazonLogistics.exec(trackingNumber)) {
+            return 'amazon logistic';
         }
         return '';
     }

@@ -1,6 +1,6 @@
 {
   "name": "auto-detection-carriers",
-  "version": "0.9.1",
+  "version": "0.9.2",
   "description": "Auto-detection carriers",
   "main": "carriers.js",
   "scripts": {
